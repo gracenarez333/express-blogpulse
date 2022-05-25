@@ -1,0 +1,7 @@
+title: comment
+
+name: VARCHAR
+content: VARCHAR
+articleId: INTEGER
+
+sequelize model:create --name comment --attributes name:string,content:text,articleId:integer
